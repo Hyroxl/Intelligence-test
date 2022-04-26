@@ -22,4 +22,5 @@ int main()
     printf("their score is %d \n", randomnum);
     printf("%s %s \n", name, " is stupid");
     }
+    return 0;
 }
