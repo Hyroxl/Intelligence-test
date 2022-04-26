@@ -1,2 +1,2 @@
 # Intelligence-test
-just a randum number thing that is testing user input stuff
+treying to recreate the same thing in all the languages i learn
