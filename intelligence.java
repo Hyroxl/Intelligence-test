@@ -9,7 +9,7 @@ public class Main {
 	}
 	public static void main(String[] args) {
 		Scanner usernameinput = new Scanner(System.in);
-		System.out.println("Whats their Name?");
+		System.out.println("Whats their Name?:");
 		String Username = usernameinput.nextLine();
 		int randomnum = (int)(Math.random() * 101);
 		System.out.println("their score is " + randomnum);
