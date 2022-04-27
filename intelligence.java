@@ -2,9 +2,20 @@ import java.util.Scanner;
 public class Main {
 	static void intelligence(boolean is_a_failure, String name) {
 		if (is_a_failure == true) {
-			System.out.println(name + " is stupid");
+			int randomnum2 = (int)(Math.random()* 5);
+			if (randomnum2 == 0) {
+				System.out.println(name + " is stupid");
+			} else if (randomnum2 == 1) {
+				System.out.println(name + " is maidenless");
+			} else if (randomnum2 == 2) {
+				System.out.println(name + " needs to touch grass");
+			} else if (randomnum2 == 3) {
+				System.out.println("your mom");
+			} else if (randomnum2 == 4) {
+				System.out.println(name + " is short");
+			}
 		} else {
-			System.out.println(name + " is smart");
+				System.out.println(name + " is smart");
 		}
 	}
 	public static void main(String[] args) {
@@ -17,6 +28,6 @@ public class Main {
 			intelligence(true, Username);
 		} else if (randomnum > 50) {
 			intelligence(false, Username);
-		} 
+		} 	
 	}
 }
