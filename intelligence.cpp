@@ -31,7 +31,7 @@ main ()
     {
       if (randomnum2 == 0)
 	{
-	  cout << " their score is " << randomnum << "\n";
+	  cout << "their score is " << randomnum << "\n";
 	  cout << name << " is stupid \n";
 	}
       else if (randomnum2 == 1)
