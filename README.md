@@ -1,2 +1,2 @@
 # Intelligence-test
-trying to recreate the same thing in all the languages i know
+this proram insults you in multiple different programming languages
